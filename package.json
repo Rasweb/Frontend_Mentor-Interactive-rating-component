@@ -1,0 +1,24 @@
+{
+  "name": "frontend_mentor-interactive-rating-component-1",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/sass/index.scss:src/css/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/Rasweb/Frontend_Mentor-Interactive-rating-component#readme",
+  "dependencies": {
+    "sass": "^1.50.1"
+  }
+}
