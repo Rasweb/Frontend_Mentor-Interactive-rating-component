@@ -1,0 +1,9 @@
+@use "variables";
+@use "mixins";
+
+@use "rating-state";
+@use "thank-you-state";
+
+html {
+  scroll-behavior: smooth;
+}
