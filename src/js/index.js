@@ -4,4 +4,5 @@ window.onload = () => {
 
 function showDiv() {
   document.getElementById("ratingDiv").style.display = "none";
+  document.getElementById("thankYouDiv").style.display = "block";
 }
