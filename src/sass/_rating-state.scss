@@ -2,11 +2,7 @@
 @use "mixins";
 
 .ratingDiv {
-  background-color: variables.$Neutral-Very-Dark-Blue;
-  width: 375px;
-  padding: 24px;
-  position: absolute;
-  top: 20%;
+  @include mixins.container;
   .contentDiv {
     margin-left: 10%;
     .starCont {
@@ -21,10 +17,8 @@
     h1 {
       color: variables.$Neutral-White;
     }
-    .ratingText {
-      margin-top: variables.$p-MT;
-      color: variables.$Neutral-M-Grey;
-      font-size: 15px;
+    p {
+      @include mixins.paragraph;
     }
   }
 

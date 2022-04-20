@@ -1,7 +1,19 @@
 @use "variables";
 
-@mixin pMT {
-  margin-top: -13px;
+@mixin container {
+  background-color: variables.$Neutral-Very-Dark-Blue;
+  width: 375px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 5%;
+  position: absolute;
+  top: 20%;
+}
+
+@mixin paragraph {
+  margin-top: variables.$p-MT;
+  color: variables.$Neutral-M-Grey;
+  font-size: 15px;
 }
 
 @mixin flex-col {
@@ -12,10 +24,4 @@
 @mixin flex-row {
   display: flex;
   flex-direction: row;
-}
-
-@mixin desktop() {
-  @media screen and (min-width: 768px) {
-    @content;
-  }
 }

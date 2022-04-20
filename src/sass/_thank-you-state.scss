@@ -2,5 +2,23 @@
 @use "mixins";
 
 .thankYouDiv {
+  @include mixins.container;
   display: none;
+  text-align: center;
+  .imgCont {
+    text-align: center;
+  }
+  #ratingDone {
+    background-color: variables.$Neutral-Dark-Blue;
+    color: variables.$primary-Orange;
+    border-radius: 35px;
+    width: 50%;
+    margin: 6% auto;
+  }
+  h1 {
+    color: variables.$Neutral-White;
+  }
+  p {
+    @include mixins.paragraph;
+  }
 }

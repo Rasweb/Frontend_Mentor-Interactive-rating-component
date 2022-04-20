@@ -1,7 +1,9 @@
 .ratingDiv {
   background-color: hsl(216deg, 12%, 8%);
   width: 375px;
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 5%;
   position: absolute;
   top: 20%;
 }
@@ -20,7 +22,7 @@
 .ratingDiv .contentDiv h1 {
   color: hsl(180deg, 100%, 100%);
 }
-.ratingDiv .contentDiv .ratingText {
+.ratingDiv .contentDiv p {
   margin-top: -13px;
   color: hsl(216deg, 12%, 54%);
   font-size: 15px;
@@ -67,7 +69,33 @@
 }
 
 .thankYouDiv {
+  background-color: hsl(216deg, 12%, 8%);
+  width: 375px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 5%;
+  position: absolute;
+  top: 20%;
   display: none;
+  text-align: center;
+}
+.thankYouDiv .imgCont {
+  text-align: center;
+}
+.thankYouDiv #ratingDone {
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(25deg, 97%, 53%);
+  border-radius: 35px;
+  width: 50%;
+  margin: 6% auto;
+}
+.thankYouDiv h1 {
+  color: hsl(180deg, 100%, 100%);
+}
+.thankYouDiv p {
+  margin-top: -13px;
+  color: hsl(216deg, 12%, 54%);
+  font-size: 15px;
 }
 
 html {
