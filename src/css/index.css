@@ -1,12 +1,36 @@
+.ratingDiv {
+  background-color: hsl(216deg, 12%, 8%);
+  width: 300px;
+  border-radius: 8px;
+  padding: 24px;
+  position: absolute;
+  top: 20%;
+}
+.ratingDiv .starCont {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: hsl(213deg, 19%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .ratingDiv h1 {
   color: hsl(180deg, 100%, 100%);
 }
 .ratingDiv .ratingText {
   margin-top: -13px;
+  color: hsl(216deg, 12%, 54%);
+}
+.ratingDiv .btn {
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(216deg, 12%, 54%);
 }
 .ratingDiv #submit {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(180deg, 100%, 100%);
+  display: block;
+  margin: 0 auto;
 }
 
 .thankYouDiv {
@@ -17,7 +41,26 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  background-color: hsl(216deg, 12%, 8%);
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass";
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }
 
 /*# sourceMappingURL=index.css.map */

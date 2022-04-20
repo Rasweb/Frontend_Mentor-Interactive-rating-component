@@ -8,5 +8,23 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  background-color: variables.$Neutral-Very-Dark-Blue;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass";
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
