@@ -11,15 +11,15 @@ ratingBtns.forEach((btn) => {
 function showDiv() {
   document.getElementById("ratingDiv").style.display = "none";
   document.getElementById("thankYouDiv").style.display = "block";
-  const doneRating = (document.getElementById(
+  document.getElementById(
     "ratingDone"
-  ).innerHTML = `You selected ${rating} out of 5`);
+  ).innerHTML = `You selected ${rating} out of 5`;
 }
 
 submitBtn.addEventListener("click", () => {
   if (rating > 0) {
     showDiv();
   } else {
-    console.log("Bad");
+    alert("");
   }
 });
