@@ -46,6 +46,10 @@
       background-color: variables.$primary-Orange;
       color: variables.$Neutral-White;
     }
+    .btn:focus {
+      background-color: variables.$Neutral-L-Grey;
+      color: variables.$Neutral-White;
+    }
   }
 
   #submit {

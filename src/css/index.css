@@ -44,6 +44,10 @@
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(180deg, 100%, 100%);
 }
+.ratingDiv .btnCont .btn:focus {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(180deg, 100%, 100%);
+}
 .ratingDiv #submit {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(180deg, 100%, 100%);
