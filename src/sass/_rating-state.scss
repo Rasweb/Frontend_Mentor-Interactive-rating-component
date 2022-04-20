@@ -1,2 +1,15 @@
 @use "variables";
 @use "mixins";
+
+.ratingDiv {
+  h1 {
+    color: variables.$Neutral-White;
+  }
+  .ratingText {
+    margin-top: variables.$p-MT;
+  }
+  #submit {
+    background-color: variables.$primary-Orange;
+    color: variables.$Neutral-White;
+  }
+}

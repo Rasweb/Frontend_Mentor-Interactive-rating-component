@@ -1,9 +1,23 @@
+.ratingDiv h1 {
+  color: hsl(180deg, 100%, 100%);
+}
+.ratingDiv .ratingText {
+  margin-top: -13px;
+}
+.ratingDiv #submit {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(180deg, 100%, 100%);
+}
+
 .thankYouDiv {
   display: none;
 }
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(216deg, 12%, 8%);
 }
 
 /*# sourceMappingURL=index.css.map */
