@@ -30,8 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://rasweb.github.io/Frontend_Mentor-Interactive-rating-component/)
+[Solution UR](https://www.frontendmentor.io/solutions/responsive-design-using-flex-and-sass-SJ1yU9pNq)
+
+[Live Site URL](https://rasweb.github.io/Frontend_Mentor-Interactive-rating-component/)
 
 ## My process
 
@@ -46,6 +47,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Rasmus](https://rasweb.one/)
-- Frontend Mentor - [@Rasweb](https://www.frontendmentor.io/profile/Rasweb)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/rasmus-palm-076a83219/)
+[Website](https://rasweb.one/)
+
+[Frontend Mentor](https://www.frontendmentor.io/profile/Rasweb)
+
+[Linkedin](https://www.linkedin.com/in/rasmus-palm-076a83219/)
