@@ -3,30 +3,49 @@
 
 .ratingDiv {
   background-color: variables.$Neutral-Very-Dark-Blue;
-  width: 300px;
-  border-radius: 8px;
+  width: 375px;
   padding: 24px;
   position: absolute;
   top: 20%;
-  .starCont {
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    background-color: variables.$Neutral-Dark-Blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .contentDiv {
+    margin-left: 10%;
+    .starCont {
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      background-color: variables.$Neutral-Dark-Blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      color: variables.$Neutral-White;
+    }
+    .ratingText {
+      margin-top: variables.$p-MT;
+      color: variables.$Neutral-M-Grey;
+      font-size: 15px;
+    }
   }
-  h1 {
-    color: variables.$Neutral-White;
-  }
-  .ratingText {
-    margin-top: variables.$p-MT;
-    color: variables.$Neutral-M-Grey;
-  }
-  .btn {
-    background-color: variables.$Neutral-Dark-Blue;
-    color: variables.$Neutral-M-Grey;
+
+  .btnCont {
+    text-align: center;
+    .btn {
+      background-color: variables.$Neutral-Dark-Blue;
+      color: variables.$Neutral-M-Grey;
+      margin-bottom: 6%;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .btn:hover {
+      background-color: variables.$primary-Orange;
+      color: variables.$Neutral-White;
+    }
   }
 
   #submit {
@@ -34,5 +53,16 @@
     color: variables.$Neutral-White;
     display: block;
     margin: 0 auto;
+    height: 40px;
+    border: none;
+    width: 80%;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: "Overpass", sans-serif;
+    font-size: 0.9rem;
+  }
+  #submit:hover {
+    background-color: variables.$Neutral-White;
+    color: variables.$primary-Orange;
   }
 }
