@@ -47,8 +47,6 @@ Users should be able to:
 
 ## Author
 
-[Website](https://rasweb.one/)
-
 [Frontend Mentor](https://www.frontendmentor.io/profile/Rasweb)
 
 [Linkedin](https://www.linkedin.com/in/rasmus-palm-076a83219/)
